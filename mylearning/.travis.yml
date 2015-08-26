@@ -1,6 +1,3 @@
 # Test 
 language: java
-jdk:
-- openjdk8
-before_install:
-  - git submodule update --init --recursive
+mvn install -DskipTests=true
