@@ -1,4 +1,2 @@
 # Test 
 language: java
-script: "mvn test && mvn verify"
-script: "mvn clean install"
